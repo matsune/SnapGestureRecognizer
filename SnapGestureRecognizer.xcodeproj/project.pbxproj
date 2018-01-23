@@ -13,7 +13,40 @@
 		137F4246201709BD00C57696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137F4244201709BD00C57696 /* Main.storyboard */; };
 		137F4248201709BD00C57696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137F4247201709BD00C57696 /* Assets.xcassets */; };
 		137F424B201709BD00C57696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137F4249201709BD00C57696 /* LaunchScreen.storyboard */; };
+		137F425120170A0000C57696 /* SnapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425020170A0000C57696 /* SnapGestureRecognizer.swift */; };
+		137F425220170A3C00C57696 /* SnapGestureRecognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137F422F2017095100C57696 /* SnapGestureRecognizer.framework */; };
+		137F425320170A3C00C57696 /* SnapGestureRecognizer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 137F422F2017095100C57696 /* SnapGestureRecognizer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		137F425820170AED00C57696 /* SnapGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425720170AED00C57696 /* SnapGestureRecognizerDelegate.swift */; };
+		137F425C20170BAD00C57696 /* SnapAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425920170BAC00C57696 /* SnapAnchor.swift */; };
+		137F425D20170BAD00C57696 /* PanDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425A20170BAC00C57696 /* PanDirection.swift */; };
+		137F425E20170BAD00C57696 /* SnapTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425B20170BAD00C57696 /* SnapTo.swift */; };
+		137F426020170BB800C57696 /* SnapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425F20170BB700C57696 /* SnapPoint.swift */; };
+		137F426220170BC400C57696 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426120170BC400C57696 /* CGPointExtension.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		137F425420170A3C00C57696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137F42262017095100C57696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137F422E2017095100C57696;
+			remoteInfo = SnapGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		137F425620170A3C00C57696 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				137F425320170A3C00C57696 /* SnapGestureRecognizer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		137F422F2017095100C57696 /* SnapGestureRecognizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapGestureRecognizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +59,13 @@
 		137F4247201709BD00C57696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137F424A201709BD00C57696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137F424C201709BD00C57696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137F425020170A0000C57696 /* SnapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGestureRecognizer.swift; sourceTree = "<group>"; };
+		137F425720170AED00C57696 /* SnapGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGestureRecognizerDelegate.swift; sourceTree = "<group>"; };
+		137F425920170BAC00C57696 /* SnapAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapAnchor.swift; sourceTree = "<group>"; };
+		137F425A20170BAC00C57696 /* PanDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanDirection.swift; sourceTree = "<group>"; };
+		137F425B20170BAD00C57696 /* SnapTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapTo.swift; sourceTree = "<group>"; };
+		137F425F20170BB700C57696 /* SnapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapPoint.swift; sourceTree = "<group>"; };
+		137F426120170BC400C57696 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137F425220170A3C00C57696 /* SnapGestureRecognizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +110,11 @@
 			children = (
 				137F42322017095100C57696 /* SnapGestureRecognizer.h */,
 				137F42332017095100C57696 /* Info.plist */,
+				137F425020170A0000C57696 /* SnapGestureRecognizer.swift */,
+				137F425720170AED00C57696 /* SnapGestureRecognizerDelegate.swift */,
+				137F425F20170BB700C57696 /* SnapPoint.swift */,
+				137F426420170DB300C57696 /* enum */,
+				137F426320170DA900C57696 /* Extension */,
 			);
 			path = SnapGestureRecognizer;
 			sourceTree = "<group>";
@@ -84,6 +130,24 @@
 				137F424C201709BD00C57696 /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		137F426320170DA900C57696 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				137F426120170BC400C57696 /* CGPointExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		137F426420170DB300C57696 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				137F425A20170BAC00C57696 /* PanDirection.swift */,
+				137F425920170BAC00C57696 /* SnapAnchor.swift */,
+				137F425B20170BAD00C57696 /* SnapTo.swift */,
+			);
+			path = enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,10 +189,12 @@
 				137F423A201709BD00C57696 /* Sources */,
 				137F423B201709BD00C57696 /* Frameworks */,
 				137F423C201709BD00C57696 /* Resources */,
+				137F425620170A3C00C57696 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				137F425520170A3C00C57696 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -147,6 +213,7 @@
 				TargetAttributes = {
 					137F422E2017095100C57696 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					137F423D201709BD00C57696 = {
@@ -199,6 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137F425E20170BAD00C57696 /* SnapTo.swift in Sources */,
+				137F425C20170BAD00C57696 /* SnapAnchor.swift in Sources */,
+				137F425D20170BAD00C57696 /* PanDirection.swift in Sources */,
+				137F425820170AED00C57696 /* SnapGestureRecognizerDelegate.swift in Sources */,
+				137F426020170BB800C57696 /* SnapPoint.swift in Sources */,
+				137F425120170A0000C57696 /* SnapGestureRecognizer.swift in Sources */,
+				137F426220170BC400C57696 /* CGPointExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +286,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		137F425520170A3C00C57696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137F422E2017095100C57696 /* SnapGestureRecognizer */;
+			targetProxy = 137F425420170A3C00C57696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		137F4244201709BD00C57696 /* Main.storyboard */ = {
@@ -349,6 +431,7 @@
 		137F42382017095100C57696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -362,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.matsune.SnapGestureRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -370,6 +454,7 @@
 		137F42392017095100C57696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +476,7 @@
 		137F424E201709BD00C57696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8G7ZB52773;
@@ -406,6 +492,7 @@
 		137F424F201709BD00C57696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8G7ZB52773;
