@@ -7,6 +7,7 @@
 //
 
 open class SnapGestureRecognizer: UIPanGestureRecognizer {
+    
     // - MARK: Animation
     open var duration: TimeInterval   = 0.4
     open var delay: TimeInterval      = 0.0

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		137F42342017095100C57696 /* SnapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 137F42322017095100C57696 /* SnapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		137F4241201709BD00C57696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F4240201709BD00C57696 /* AppDelegate.swift */; };
-		137F4243201709BD00C57696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F4242201709BD00C57696 /* ViewController.swift */; };
 		137F4246201709BD00C57696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137F4244201709BD00C57696 /* Main.storyboard */; };
 		137F4248201709BD00C57696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137F4247201709BD00C57696 /* Assets.xcassets */; };
 		137F424B201709BD00C57696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137F4249201709BD00C57696 /* LaunchScreen.storyboard */; };
@@ -22,6 +21,13 @@
 		137F425E20170BAD00C57696 /* SnapTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425B20170BAD00C57696 /* SnapTo.swift */; };
 		137F426020170BB800C57696 /* SnapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F425F20170BB700C57696 /* SnapPoint.swift */; };
 		137F426220170BC400C57696 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426120170BC400C57696 /* CGPointExtension.swift */; };
+		137F426720170EEA00C57696 /* BasicConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426520170EE900C57696 /* BasicConfigTableViewController.swift */; };
+		137F426820170EEA00C57696 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426620170EEA00C57696 /* BasicViewController.swift */; };
+		137F426A20170EF600C57696 /* WithAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426920170EF600C57696 /* WithAnimationViewController.swift */; };
+		137F426F20170F0100C57696 /* MenuHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426B20170F0000C57696 /* MenuHeaderCell.swift */; };
+		137F427020170F0100C57696 /* SnapMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426C20170F0000C57696 /* SnapMenuViewController.swift */; };
+		137F427120170F0100C57696 /* MenuHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137F426D20170F0000C57696 /* MenuHeaderCell.xib */; };
+		137F427220170F0100C57696 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F426E20170F0100C57696 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +60,6 @@
 		137F42332017095100C57696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137F423E201709BD00C57696 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		137F4240201709BD00C57696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		137F4242201709BD00C57696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		137F4245201709BD00C57696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		137F4247201709BD00C57696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137F424A201709BD00C57696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +71,13 @@
 		137F425B20170BAD00C57696 /* SnapTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapTo.swift; sourceTree = "<group>"; };
 		137F425F20170BB700C57696 /* SnapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapPoint.swift; sourceTree = "<group>"; };
 		137F426120170BC400C57696 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		137F426520170EE900C57696 /* BasicConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicConfigTableViewController.swift; sourceTree = "<group>"; };
+		137F426620170EEA00C57696 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		137F426920170EF600C57696 /* WithAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithAnimationViewController.swift; sourceTree = "<group>"; };
+		137F426B20170F0000C57696 /* MenuHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderCell.swift; sourceTree = "<group>"; };
+		137F426C20170F0000C57696 /* SnapMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapMenuViewController.swift; sourceTree = "<group>"; };
+		137F426D20170F0000C57696 /* MenuHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuHeaderCell.xib; sourceTree = "<group>"; };
+		137F426E20170F0100C57696 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +135,10 @@
 			isa = PBXGroup;
 			children = (
 				137F4240201709BD00C57696 /* AppDelegate.swift */,
-				137F4242201709BD00C57696 /* ViewController.swift */,
-				137F4244201709BD00C57696 /* Main.storyboard */,
-				137F4247201709BD00C57696 /* Assets.xcassets */,
-				137F4249201709BD00C57696 /* LaunchScreen.storyboard */,
-				137F424C201709BD00C57696 /* Info.plist */,
+				137F42752017113500C57696 /* Basic */,
+				137F42732017112000C57696 /* SnapMenu */,
+				137F42762017115E00C57696 /* SupportingFiles */,
+				137F42742017112800C57696 /* WithAnimation */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -148,6 +159,45 @@
 				137F425B20170BAD00C57696 /* SnapTo.swift */,
 			);
 			path = enum;
+			sourceTree = "<group>";
+		};
+		137F42732017112000C57696 /* SnapMenu */ = {
+			isa = PBXGroup;
+			children = (
+				137F426B20170F0000C57696 /* MenuHeaderCell.swift */,
+				137F426E20170F0100C57696 /* MenuView.swift */,
+				137F426C20170F0000C57696 /* SnapMenuViewController.swift */,
+				137F426D20170F0000C57696 /* MenuHeaderCell.xib */,
+			);
+			path = SnapMenu;
+			sourceTree = "<group>";
+		};
+		137F42742017112800C57696 /* WithAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				137F426920170EF600C57696 /* WithAnimationViewController.swift */,
+			);
+			path = WithAnimation;
+			sourceTree = "<group>";
+		};
+		137F42752017113500C57696 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				137F426520170EE900C57696 /* BasicConfigTableViewController.swift */,
+				137F426620170EEA00C57696 /* BasicViewController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		137F42762017115E00C57696 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				137F424C201709BD00C57696 /* Info.plist */,
+				137F4247201709BD00C57696 /* Assets.xcassets */,
+				137F4249201709BD00C57696 /* LaunchScreen.storyboard */,
+				137F4244201709BD00C57696 /* Main.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				137F424B201709BD00C57696 /* LaunchScreen.storyboard in Resources */,
+				137F427120170F0100C57696 /* MenuHeaderCell.xib in Resources */,
 				137F4248201709BD00C57696 /* Assets.xcassets in Resources */,
 				137F4246201709BD00C57696 /* Main.storyboard in Resources */,
 			);
@@ -280,8 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137F4243201709BD00C57696 /* ViewController.swift in Sources */,
+				137F427220170F0100C57696 /* MenuView.swift in Sources */,
+				137F426820170EEA00C57696 /* BasicViewController.swift in Sources */,
+				137F426A20170EF600C57696 /* WithAnimationViewController.swift in Sources */,
+				137F426720170EEA00C57696 /* BasicConfigTableViewController.swift in Sources */,
 				137F4241201709BD00C57696 /* AppDelegate.swift in Sources */,
+				137F426F20170F0100C57696 /* MenuHeaderCell.swift in Sources */,
+				137F427020170F0100C57696 /* SnapMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
