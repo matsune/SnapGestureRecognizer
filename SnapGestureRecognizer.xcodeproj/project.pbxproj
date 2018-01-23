@@ -8,16 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		137F42342017095100C57696 /* SnapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 137F42322017095100C57696 /* SnapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137F4241201709BD00C57696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F4240201709BD00C57696 /* AppDelegate.swift */; };
+		137F4243201709BD00C57696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F4242201709BD00C57696 /* ViewController.swift */; };
+		137F4246201709BD00C57696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137F4244201709BD00C57696 /* Main.storyboard */; };
+		137F4248201709BD00C57696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137F4247201709BD00C57696 /* Assets.xcassets */; };
+		137F424B201709BD00C57696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137F4249201709BD00C57696 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		137F422F2017095100C57696 /* SnapGestureRecognizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapGestureRecognizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		137F42322017095100C57696 /* SnapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapGestureRecognizer.h; sourceTree = "<group>"; };
 		137F42332017095100C57696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137F423E201709BD00C57696 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		137F4240201709BD00C57696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		137F4242201709BD00C57696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		137F4245201709BD00C57696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		137F4247201709BD00C57696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		137F424A201709BD00C57696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		137F424C201709BD00C57696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		137F422B2017095100C57696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137F423B201709BD00C57696 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				137F42312017095100C57696 /* SnapGestureRecognizer */,
+				137F423F201709BD00C57696 /* Example */,
 				137F42302017095100C57696 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				137F422F2017095100C57696 /* SnapGestureRecognizer.framework */,
+				137F423E201709BD00C57696 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +71,19 @@
 				137F42332017095100C57696 /* Info.plist */,
 			);
 			path = SnapGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		137F423F201709BD00C57696 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				137F4240201709BD00C57696 /* AppDelegate.swift */,
+				137F4242201709BD00C57696 /* ViewController.swift */,
+				137F4244201709BD00C57696 /* Main.storyboard */,
+				137F4247201709BD00C57696 /* Assets.xcassets */,
+				137F4249201709BD00C57696 /* LaunchScreen.storyboard */,
+				137F424C201709BD00C57696 /* Info.plist */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +118,38 @@
 			productReference = 137F422F2017095100C57696 /* SnapGestureRecognizer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		137F423D201709BD00C57696 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137F424D201709BD00C57696 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				137F423A201709BD00C57696 /* Sources */,
+				137F423B201709BD00C57696 /* Frameworks */,
+				137F423C201709BD00C57696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 137F423E201709BD00C57696 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		137F42262017095100C57696 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = matsune;
 				TargetAttributes = {
 					137F422E2017095100C57696 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					137F423D201709BD00C57696 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -105,6 +161,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 137F42252017095100C57696;
 			productRefGroup = 137F42302017095100C57696 /* Products */;
@@ -112,6 +169,7 @@
 			projectRoot = "";
 			targets = (
 				137F422E2017095100C57696 /* SnapGestureRecognizer */,
+				137F423D201709BD00C57696 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +179,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137F423C201709BD00C57696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137F424B201709BD00C57696 /* LaunchScreen.storyboard in Resources */,
+				137F4248201709BD00C57696 /* Assets.xcassets in Resources */,
+				137F4246201709BD00C57696 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +202,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		137F423A201709BD00C57696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137F4243201709BD00C57696 /* ViewController.swift in Sources */,
+				137F4241201709BD00C57696 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		137F4244201709BD00C57696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137F4245201709BD00C57696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		137F4249201709BD00C57696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137F424A201709BD00C57696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		137F42352017095100C57696 /* Debug */ = {
@@ -292,6 +388,36 @@
 			};
 			name = Release;
 		};
+		137F424E201709BD00C57696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7ZB52773;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.matsune.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		137F424F201709BD00C57696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7ZB52773;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.matsune.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +435,15 @@
 			buildConfigurations = (
 				137F42382017095100C57696 /* Debug */,
 				137F42392017095100C57696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137F424D201709BD00C57696 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137F424E201709BD00C57696 /* Debug */,
+				137F424F201709BD00C57696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
