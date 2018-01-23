@@ -134,6 +134,7 @@
 		137F423F201709BD00C57696 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				137F424C201709BD00C57696 /* Info.plist */,
 				137F4240201709BD00C57696 /* AppDelegate.swift */,
 				137F42752017113500C57696 /* Basic */,
 				137F42732017112000C57696 /* SnapMenu */,
@@ -192,7 +193,6 @@
 		137F42762017115E00C57696 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				137F424C201709BD00C57696 /* Info.plist */,
 				137F4247201709BD00C57696 /* Assets.xcassets */,
 				137F4249201709BD00C57696 /* LaunchScreen.storyboard */,
 				137F4244201709BD00C57696 /* Main.storyboard */,
